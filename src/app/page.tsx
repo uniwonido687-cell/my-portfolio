@@ -4,7 +4,7 @@ import { ChangingPhrase } from "./ui/ChangingPhrase";
 
 export const metadata = {
   title: "ポートフォリオサイト",
-  description: "ポートフォリオサイトのウェルカムページです。",
+  description: "峰岡大円のポートフォリオサイト。バックエンドエンジニアとして、NestJS・Node.js・API設計・DB設計を中心に開発に携わっています。",
   alternates: { canonical: "/"}
 }
 
@@ -17,10 +17,7 @@ export default function Home() {
           {greeting}
           <ChangingPhrase />
         </h1>
-          <Image src="/ray-so-export.png" alt="Profile.tsx" width={720} height={720} className="w-[540px]" priority />
-      </div>
-      <div className="w-full my-8 flex justify-center">
-        <s><strong className="text-center text-sm">スマホで見るとレイアウトが崩れるかもしれません。PC推奨です。</strong></s>
+          <Image src="/ray-so-export.png" alt="コードサンプル" width={720} height={720} className="w-[540px]" priority />
       </div>
     </>
   );

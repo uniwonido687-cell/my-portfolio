@@ -19,7 +19,7 @@ export function NavigationBar() {
     return(
             <nav className="fixed top-0 left-0 w-full z-50 px-4 py-3 md:px-8 md:py-6"> {/* navigation bar を画面上部に固定 */}
                 <div className = "text-xl flex flex-wrap items-center justify-between gap-2 glass">
-                    <a href="https://github.com/ars0611" target="_blank" rel="noopener noreferrer" className="flex items-left gap-2 btn"> {/* target=_blankを使うならrelは脆弱性対策で必須。 */}
+                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="flex items-left gap-2 btn"> {/* target=_blankを使うならrelは脆弱性対策で必須。 */}
                         <span className="text-[1.5rem] flex-shrink-0"><VscGithubInverted /></span>
                         <span className="hidden md:block">GitHub</span> {/* md以上の画面サイズで表示 i.e. 画面が十分小さい場合アイコンのみ表示 */}
                     </a>

@@ -4,7 +4,7 @@ import { ExternalLink } from "../ui/Contact/ExternalLink";
 
 export const metadata = {
   title: "お問い合わせ",
-  description: "外部リンク・問い合わせページです。",
+  description: "峰岡大円へのお問い合わせ・各種リンクのページです。",
   alternates: { canonical: "/contact"}
 }
 

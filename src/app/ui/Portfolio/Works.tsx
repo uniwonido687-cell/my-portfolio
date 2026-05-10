@@ -1,21 +1,14 @@
 // 活動の紹介
 import { GoFileDirectory } from "react-icons/go";
 import Image from "next/image";
-import { works } from "../../lib/MyData"; 
-import { HighestRecords } from "@/app/lib/definition";
-import { getHighestRecords } from "@/app/lib/AtCoderAPI";
+import { works } from "../../lib/MyData";
 
-
-export async function Works() {
-    const records: HighestRecords = await getHighestRecords();
-    const highestRating = records.highestRating;
-    const highestPerformance = records.highestPerformance;
+export function Works() {
     return(
         <>
         <h1 className="mb-4 px-16"><GoFileDirectory className="icon" />活動</h1>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
             {works.map(work => {
-                const description = work.title === "AtCoder" ? `Highest Rating：${highestRating}\nHighest Performance：${highestPerformance}\n` + work.description : work.description;
                 return (
                     <div className="glass mx-16 mb-8 p-4" key={work.id}>
                         <div className="flex justify-center">
@@ -23,10 +16,10 @@ export async function Works() {
                         </div>
                         <h2>{work.title}</h2>
                         <p className="text-sm text-gray-400">{work.date}</p>
-                        <p className="whitespace-pre-line">{description}</p>
+                        <p className="whitespace-pre-line">{work.description}</p>
                         {work.link && (
                             <p>
-                                参照：<a href={work.link} className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">{work.link}</a> {/* target=_blankを使うならrelは脆弱性対策で必須。 */}
+                                参照：<a href={work.link} className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">{work.link}</a>
                             </p>
                         )}
                         {work.github && (
