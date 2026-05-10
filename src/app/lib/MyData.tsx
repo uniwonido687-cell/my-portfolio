@@ -34,21 +34,21 @@ export const works: Work[] = [
         title: "SaaS企業向けコーポレート・マーケティングサイト",
         date: "2025.04 - 2026.02",
         description: "SaaS企業向けマーケティングサイトの新規構築。サービス紹介・料金プラン・ブログ・お問い合わせ機能を含む構成。\n\n役割：フルスタックエンジニア（3名）\n担当：要件定義 / 設計・開発 / 運用\n技術：TypeScript, Next.js, Laravel, PostgreSQL, Docker, AWS, GitHub Actions, Jest, Cypress\n\n・Next.js によるフロントエンド実装（SSR / SSG 対応、SEO対策）\n・Laravel による API 設計・実装\n・お問い合わせフォーム実装・バリデーション対応\n・レスポンシブ対応・運用保守",
-        src: "/portfolio.png",
+        src: "/portfolio1.png",
     },
     {
         id: 2,
         title: "建設業向け業務効率化・管理システム",
         date: "2024.01 - 2025.03",
         description: "建設業向けの写真・データ管理および業務フロー管理システムの開発。\n\n役割：バックエンドエンジニア（6名）\n担当：基本設計 / 詳細設計 / 実装 / テスト / 保守運用\n技術：TypeScript, NestJS, Next.js, PostgreSQL, Docker, AWS(EC2/RDS), GitHub\n\n・NestJS による API 設計・実装\n・管理画面開発（React / Next.js、一部担当）\n・ユーザー・権限管理機能の実装\n・ログ機能の実装・改善",
-        src: "/portfolio.png",
+        src: "/portfolio2.png",
     },
     {
         id: 3,
         title: "建設業向け検査・帳票作成支援システム",
         date: "2021.04 - 2023.12",
         description: "建設業向け検査記録・帳票作成システムの新規構築および継続開発。\n\n役割：バックエンドエンジニア（4名）\n担当：基本設計 / 詳細設計 / 実装 / テスト / 保守運用\n技術：TypeScript, JavaScript, PHP, Laravel, Vue.js, Nuxt.js, MySQL, AWS, GitHub\n\n・API 設計・実装、データベース設計・クエリ最適化\n・ユーザー・権限管理機能の実装\n・ログ機能の設計・改善\n・保守運用・機能改善・導入支援",
-        src: "/portfolio.png",
+        src: "/portfolio3.png",
     },
 ];
 

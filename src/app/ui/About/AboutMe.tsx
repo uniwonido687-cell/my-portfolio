@@ -8,7 +8,7 @@ export function AboutMe() {
         <>
         <h1 className="mb-4 px-16"><GoPerson className="icon" />自己紹介</h1>
         <div className="flex flex-col md:flex-row items-center mb-8">
-            <Image src="/Me.png" alt="Daien Mineoka" width={300} height={300} className="rounded-full mx-16 mb-4" priority/>
+            <Image src="/Me.png" alt="Daien Mineoka" width={500} height={500} className="rounded-full mx-16 mb-4" priority/>
             <div className="glass p-4 mx-16">
                 <h2 className=" mb-2">峰岡 大円</h2><br />
                 <p>バックエンドエンジニア / フルスタックエンジニア</p><br />
