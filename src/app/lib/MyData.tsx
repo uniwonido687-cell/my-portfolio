@@ -229,7 +229,7 @@ export const ExternalLinks: ExternalLink[] = [
     {
         id: 1,
         name: "GitHub",
-        url: "https://github.com/",
+        url: "https://github.com/uniwonido687-cell/my-portfolio",
         icon: <VscGithubInverted />,
         description: "個人プロジェクトやコードを公開しています。",
     },
