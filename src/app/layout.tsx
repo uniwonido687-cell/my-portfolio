@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import ""./globals.css";"
+import "./globals.css";
 import { ParticlesBackground } from "./ui/ParticlesBackground";
 import { NavigationBar } from "./ui/NavigationBar";
 
