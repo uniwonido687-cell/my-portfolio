@@ -4,12 +4,12 @@ import { ChangingPhrase } from "./ui/ChangingPhrase";
 
 export const metadata = {
   title: "ポートフォリオサイト",
-  description: "峰岡大円のポートフォリオサイト。バックエンドエンジニアとして、NestJS・Node.js・API設計・DB設計を中心に開発に携わっています。",
+  description: "村上豪のポートフォリオサイト。バックエンドエンジニアとして、NestJS・Node.js・API設計・DB設計を中心に開発に携わっています。",
   alternates: { canonical: "/"}
 }
 
 export default function Home() {
-  const greeting :string = "`Hello, Welcome to My portfolio`"
+  const greeting :string = "Hello, Welcome to My portfolio"
   return (
     <>
       <div className="flex flex-col w-full md:flex-row h-full justify-around items-center px-4">

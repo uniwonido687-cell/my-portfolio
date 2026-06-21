@@ -1,28 +1,28 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import ""./globals.css";"
 import { ParticlesBackground } from "./ui/ParticlesBackground";
 import { NavigationBar } from "./ui/NavigationBar";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://daien-mineoka.vercel.app/"),
   title: {
-    default: "峰岡 大円 | ポートフォリオサイト",
-    template: "%s | 峰岡 大円"
+    default: "村上豪 | ポートフォリオサイト",
+    template: "%s | 村上豪"
   },
-  description: "峰岡大円のポートフォリオサイト。バックエンドエンジニア / フルスタックエンジニアとして、NestJS・Node.js・API設計・DB設計を中心に開発に携わっています。",
+  description: "村上豪のポートフォリオサイト。バックエンドエンジニア / フルスタックエンジニアとして、NestJS・Node.js・API設計・DB設計を中心に開発に携わっています。",
   alternates: { canonical: "/"},
   openGraph: {
     type: "website",
     locale: "ja_JP",
     url: "/",
-    siteName: "峰岡 大円のポートフォリオサイト",
-    title: "峰岡 大円 | ポートフォリオサイト",
+    siteName: "村上豪のポートフォリオサイト",
+    title: "村上豪 | ポートフォリオサイト",
     description: "バックエンドエンジニア / フルスタックエンジニアとして、NestJS・Node.js・API設計・DB設計を中心に開発に携わっています。",
     images: [{ url: "/Me.png", width: 1200, height: 630, alt: "峰岡 大円 ポートフォリオ"}],
   },
   twitter: {
     card: "summary_large_image",
-    title: "峰岡 大円 | ポートフォリオサイト",
+    title: "村上豪 | ポートフォリオサイト",
     description: "バックエンドエンジニア / フルスタックエンジニアとして、NestJS・Node.js・API設計・DB設計を中心に開発に携わっています。",
     images: ["/Me.png"]
   },

@@ -226,13 +226,6 @@ export const achivements: Achievement[] = [
 // 外部リンクのデータ
 export const ExternalLinks: ExternalLink[] = [
     {
-        id: 1,
-        name: "GitHub",
-        url: "https://github.com/uniwonido687-cell/my-portfolio",
-        icon: <VscGithubInverted />,
-        description: "個人プロジェクトやコードを公開しています。",
-    },
-    {
         id: 2,
         name: "メール",
         url: "mailto:Uniwonido687@gmail.com",
