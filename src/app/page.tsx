@@ -9,7 +9,7 @@ export const metadata = {
 }
 
 export default function Home() {
-  const greeting :string = "`Hello, ${name}!`"
+  const greeting :string = "`Hello, Welcome to My portfolio`"
   return (
     <>
       <div className="flex flex-col w-full md:flex-row h-full justify-around items-center px-4">
