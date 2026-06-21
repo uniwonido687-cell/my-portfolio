@@ -6,24 +6,24 @@ import { NavigationBar } from "./ui/NavigationBar";
 export const metadata: Metadata = {
   metadataBase: new URL("https://daien-mineoka.vercel.app/"),
   title: {
-    default: "村上豪 | ポートフォリオサイト",
+    default: "村上豪 | Backend Engineer Portfolio",
     template: "%s | 村上豪"
   },
-  description: "村上豪のポートフォリオサイト。バックエンドエンジニア / フルスタックエンジニアとして、NestJS・Node.js・API設計・DB設計を中心に開発に携わっています。",
+  description: "Java、Spring Boot、Next.js、TypeScriptを中心に開発を行うバックエンドエンジニア村上豪のポートフォリオサイトです。",
   alternates: { canonical: "/"},
   openGraph: {
     type: "website",
     locale: "ja_JP",
     url: "/",
     siteName: "村上豪のポートフォリオサイト",
-    title: "村上豪 | ポートフォリオサイト",
-    description: "バックエンドエンジニア / フルスタックエンジニアとして、NestJS・Node.js・API設計・DB設計を中心に開発に携わっています。",
-    images: [{ url: "/Me.png", width: 1200, height: 630, alt: "峰岡 大円 ポートフォリオ"}],
+    title: "村上豪 | Backend Engineer Portfolio",
+    description: "Java、Spring Boot、Next.js、TypeScriptを中心に開発を行うバックエンドエンジニア村上豪のポートフォリオサイトです。",
+    images: [{ url: "/Me.png", width: 1200, height: 630, alt: "村上豪 ポートフォリオ"}],
   },
   twitter: {
     card: "summary_large_image",
-    title: "村上豪 | ポートフォリオサイト",
-    description: "バックエンドエンジニア / フルスタックエンジニアとして、NestJS・Node.js・API設計・DB設計を中心に開発に携わっています。",
+    title: "村上豪 | Backend Engineer Portfolio",
+    description: "Java、Spring Boot、Next.js、TypeScriptを中心に開発を行うバックエンドエンジニア村上豪のポートフォリオサイトです。",
     images: ["/Me.png"]
   },
   robots: { index: true, follow: true},
@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode; })
         <NavigationBar />
         <ParticlesBackground />
         <main className="relative z-10 pt-32 flex-1">{children}</main>
-      <footer className="bg-gray-200/30 py-4 mt-4 w-full text-center relative z-50">© 2026 Daien Mineoka</footer>
+      <footer className="bg-gray-200/30 py-4 mt-4 w-full text-center relative z-50">© 2026 村上豪</footer>
       </body>
     </html>
   );

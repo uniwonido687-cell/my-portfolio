@@ -48,8 +48,8 @@ export interface ExternalLink {
 export interface BlogPost {
     id: number;
     title: string;
+    slug: string;
     date: string;
-    description: string;
-    src: string;
-    link: string;
+    summary: string;
+    content: string;
 }

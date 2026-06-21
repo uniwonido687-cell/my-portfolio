@@ -4,7 +4,7 @@ import { ChangingPhrase } from "./ui/ChangingPhrase";
 
 export const metadata = {
   title: "ポートフォリオサイト",
-  description: "村上豪のポートフォリオサイト。バックエンドエンジニアとして、NestJS・Node.js・API設計・DB設計を中心に開発に携わっています。",
+  description: "Java、Spring Boot、Next.js、TypeScriptを中心に開発を行うバックエンドエンジニア村上豪のポートフォリオサイトです。",
   alternates: { canonical: "/"}
 }
 

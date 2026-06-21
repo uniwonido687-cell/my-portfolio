@@ -8,12 +8,22 @@ import { GoMail } from "react-icons/go";
 export function ResendForm() {
     function SendButton() {
         const { pending } = useFormStatus();
-        return <button type="submit" className="bg-green-400/40 rounded-md px-4 py-2 hover:cursor-pointer" disabled={pending}>{pending ? "送信中..." : "送信"}</button>;
+        return (
+            <button
+                type="submit"
+                className="bg-green-400/40 rounded-md px-4 py-2 hover:cursor-pointer
+                           disabled:opacity-50 disabled:cursor-not-allowed transition-opacity"
+                disabled={pending}
+                aria-label={pending ? "送信中です。しばらくお待ちください" : "お問い合わせを送信する"}
+            >
+                {pending ? "送信中..." : "送信"}
+            </button>
+        );
     }
 
     return (
         <>
-            <h1 className="mb-4 px-16"><GoMail className="icon" />お問い合わせ</h1>
+            <h1 className="mb-4 px-16"><GoMail className="icon" aria-hidden="true" />お問い合わせ</h1>
             <form
                 className="mx-16"
                 action={async (formData) => {

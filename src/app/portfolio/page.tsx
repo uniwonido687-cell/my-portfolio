@@ -1,6 +1,6 @@
 // ポートフォリオページ
-import { Journey } from "../ui/Portfolio/Jouney";
-import { Achivement } from "../ui/Portfolio/Achivement";
+import { Journey } from "../ui/Portfolio/Journey";
+import { Achievement } from "../ui/Portfolio/Achievement";
 import { TechSkill } from "../ui/Portfolio/TechSkill";
 import { Works } from "../ui/Portfolio/Works";
 
@@ -14,9 +14,9 @@ export default function Portfolio() {
     return (
         <>
             <Journey />
-            <Achivement />
+            <Achievement />
             <TechSkill />
             <Works />
         </>
     );
-}     
+}

@@ -2,10 +2,10 @@
 import { GoTrophy } from "react-icons/go";
 import { achivements } from "../../lib/MyData";
 
-export function Achivement() {
+export function Achievement() {
     return(
         <div>
-            <h1 className=" mb-4 px-16"><GoTrophy className="icon" />実績</h1>
+            <h1 className=" mb-4 px-16"><GoTrophy className="icon" aria-hidden="true" />実績</h1>
             <div className="glass mx-16 mb-8 p-4">
                 <ul className="p-4">
                     {achivements.map((item) => (

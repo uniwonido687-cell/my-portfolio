@@ -5,7 +5,7 @@ import { journey } from "../../lib/MyData";
 export function Journey() {
     return(
         <>
-        <h1 className="mb-4 px-16"><GoMortarBoard className="icon" />キャリア</h1>
+        <h1 className="mb-4 px-16"><GoMortarBoard className="icon" aria-hidden="true" />キャリア</h1>
         <div className="relative">
             <div className="absolute inset-y-0 left-1/2 transform -translate-x-1/2 "> {/* 親。左右中央ぞろえ。 */}
                 <div className="w-1 bg-green-400 h-full opacity-80" /> {/* 縦線。親の高さいっぱいまでひいちゃおう。 */}
