@@ -24,7 +24,6 @@ export const phrases: Array<string> = [
     "API設計・DB設計",
     "TypeScript",
     "フルスタック対応可",
-    "日本語N1 / 中国語ネイティブ",
 ];
 
 // 活動のデータ
